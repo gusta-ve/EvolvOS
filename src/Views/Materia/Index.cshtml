@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Matérias";
+}
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Materia" asp-action="Criar">Adicionar nova Matéria</a>
+    </div>
+    <br />
+
+    <h1 class="display-4">Listagem de Matérias</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Descrição</th>
+                <th scope="col"> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Teoria</td>
+                <td>Teoria da Computação</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary" asp-controller="Materia" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Materia" asp-action="ApagarConfirmacao">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Calculo</td>
+                <td>Calculo da Computação</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary" asp-controller="Materia" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Materia" asp-action="ApagarConfirmacao">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Leis</td>
+                <td>Leis da Computação</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary" asp-controller="Materia" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Materia" asp-action="ApagarConfirmacao">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

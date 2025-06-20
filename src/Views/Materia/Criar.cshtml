@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Criar Matéria";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Cadastrar matéria</h1>
+
+</div>
+
+<form>
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="textoAbaixo" aria-describedby="textoEmsi">
+        <div id="textoEmsi" class="form-text">Nome da matéria que esta estudando.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="descricao" class="form-label">Descrição</label>
+        <input type="text" class="form-control" id="textoAbaixo" aria-describedby="textoEmsi">
+        <div id="textoEmsi" class="form-text">Descrição da matéria que está sendo inserida.</div>
+    </div>
+
+    <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-primary">Adicionar</button>
+        <a class="btn btn-secondary" asp-controller="Materia" asp-action="Index" role="button">Voltar</a>
+    </div>
+</form>
