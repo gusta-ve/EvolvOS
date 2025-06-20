@@ -11,7 +11,7 @@ Bem-vindo ao EvolvOS, uma plataforma web em desenvolvimento, criada para ajudar 
 Este repositório está organizado de forma a separar a documentação do código-fonte da aplicação:
 
 -   **/ (Raiz):** Contém a documentação principal, como este `README`, a `Solution`, `LICENSE` e o `.gitignore` geral.
--   **/src:** Contém todo o código-fonte da aplicação ASP.NET Core MVC. É aqui que a "mágica" acontece.
+-   **/src:** Contém todo o código-fonte da aplicação ASP.NET Core MVC.
 
 ---
 
